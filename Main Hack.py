@@ -1,23 +1,5 @@
 from graphics import *
 
-'''# Click Registration Function
-def clkReg(rectangle):
-    rectangle = str(rectangle)
-    for char in "Rectangle(Point(":
-        rectangle = rectangle.strip(char)
-
-
-    coord1 = ""
-    coord2 = ""
-
-    for char in rectangle:
-        if char != ")":
-            coord1 += char
-            rectangle.strip(char)
-            print(rectangle)
-        else:
-            break
-'''
 
 # Formatting Function
 def formClk(win):
